@@ -1,0 +1,1 @@
+This is a demo of my use of media queries to propose a multiple device solution to a large scale site. The emphasis was more on the query usage above any of the pages going anywhere.

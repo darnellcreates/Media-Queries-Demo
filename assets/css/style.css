@@ -1,0 +1,259 @@
+/*** GLOBAL ***/
+
+html, body{
+width:100%;
+height:100%;	
+}
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.floatleft{
+float:left;
+}
+
+.floatright{
+float:right;	
+}
+
+.center{
+text-align:center;	
+}
+
+.clearfix{
+clear:both;	
+}
+
+a{
+ color: #004990;	
+}
+
+.divider {
+    background: -moz-linear-gradient(center top , #eef 6%, #cdd1d9 6%, #b6b9c0 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #999;
+    border-radius: 3px;
+    height: 6px;
+    margin: 6px 0;
+    min-height: 6px;
+}
+.main-nav li.search, .main-nav > ul, hr.divider {
+    box-shadow: 0 1px 2px #a0a0a0;
+}
+
+/** STRUCTURE **/
+
+.container{
+width:940px;
+margin-left:auto;
+margin-right:auto;
+}
+
+.row{
+width:100%;	
+}
+
+.product{
+background:#E5E5E5;
+padding:15px;
+border:3px solid #C7C7C7;
+margin:10px;
+float:left;
+}
+
+.productdetail{
+ font-size: 12px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.hero{
+	width:860px;	
+}
+
+.midarea{
+width: 250px;
+float:left;
+}
+
+/*** HEADER ***/
+
+#preheader{
+background: black;
+height: 40px;	
+padding-top:5px;
+}
+
+header{
+width:100%;	
+margin-bottom:15px;
+text-shadow: 0 1px 0 #fff;
+background: url('../images/bkgfade.png'); 
+}
+
+/** NAVIGATION**/
+
+nav{
+margin: 10px;	
+
+}
+
+nav ul li a {
+    margin: 0px;
+	background: #D4D7E0;
+	padding:15px;
+	font-weight: bold;
+	color:#353335;
+	text-decoration: none;
+	border-radius:2px;
+	font-size: 15px;
+}
+
+nav ul li {
+display:inline;
+}
+
+#smallsecondarynav{
+font-size:8px;
+}
+
+#smallsecondarynav li{
+border-left:1px dotted black;	
+margin-left:2px;
+margin-right:2px;
+}
+
+#smallsecondarynav li{
+display: inline;
+}
+
+.searchinput{
+    font-size: 16px;
+    height: 28px;
+    margin: 3px;
+    width: 400px;
+}
+
+.search, .searchinput, nav ul li a, hr.divider {
+    box-shadow: 0 1px 2px #a0a0a0;
+}
+
+.search {
+    background: url("http://www.lowes.com/images/sprites/global-sprite.png") repeat-x scroll 0 -194px #fcb931;
+    border-color: #d59e27 #c3921e #c3921e #d59e27;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    height: 50px;
+    margin: 0;
+    padding: 15px;
+    z-index: 51;
+}
+
+.nav-icon, .footer-icon {
+    background: url("http://www.lowes.com/images/sprites/global-sprite.png") repeat scroll 0 0 transparent;
+    display: block;
+    float: left;
+    height: 24px;
+    margin-right: 3px;
+    width: 24px;
+}
+
+.site-search {
+    background-position: -124px 0;
+    margin: 2px 4px;
+}
+
+
+.inner{
+border-left: 1px solid black;
+border-right:1px solid black;
+}
+
+#heroproddetails{
+ float: left;
+    margin-left: 100px;
+    margin-top: 25px;
+    width: 400px;	
+}
+
+/** TABS, BUTTONS, IMAGES **/
+
+.btn-darkgrey{
+background: none repeat scroll 0 0 #999;
+    border: 1px solid black;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 3px;
+    width: 100%;
+}
+
+.midarea img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 79px;
+}
+
+.mobileshopall{
+width:100%;	
+display: none;
+}
+
+.heroprice{
+   font-size: 27px;
+    margin-top: 55px;
+    text-align: center;
+    width: 185px;
+}
+
+#heroproddetails > ul {
+ line-height: 1.5em;
+    list-style: inherit;
+    margin-left: 35px;	
+}
+
+/* FOOTER */
+
+#socialWrapper{
+display:none;	
+}
+
+.social i{
+  color: #15b6e5;
+    display: inline-block;
+    font: 28px/28px "ICON";
+    height: 28px;
+    margin: 3px 2px 0 0;
+    text-align: center;
+    width: 28px;	
+}
+
+footer{
+clear:both;
+}
+
+.column-footer{
+width: 165px;
+float:left;
+line-height:1.15em;
+}
+
+.column-footer li a {
+    font-size: 12px;
+    text-decoration: none;
+	font-weight:700;
+}
+
+.column-footer > h5 {
+    font-weight: bold;
+}
+
+.column-footer li a:hover{
+text-decoration: underline;	
+}
+
+/*** HIDE MOBILE ITEMS **/
+
+.mobileonlysrchbtn, .mobilefooter{
+display: none;	
+}
